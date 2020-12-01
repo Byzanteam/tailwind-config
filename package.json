@@ -1,0 +1,9 @@
+{
+  "name": "tailwind-config",
+  "version": "0.1.0",
+  "description": "Shareable tailwind theme config",
+  "main": "index.js",
+  "author": "Byzanteam",
+  "repository": "https://github.com/Byzanteam/tailwind-config.git",
+  "license": "MIT"
+}
