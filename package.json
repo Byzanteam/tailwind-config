@@ -5,5 +5,11 @@
   "main": "index.js",
   "author": "Byzanteam",
   "repository": "https://github.com/Byzanteam/tailwind-config.git",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^2.0.1"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^2.0.1"
+  }
 }

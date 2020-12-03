@@ -1,3 +1,4 @@
+const plugin = require('tailwindcss/plugin')
 const theme = require('./theme')
 const { getCustomProperties, transformConfig } = require('./utils')
 
@@ -31,6 +32,19 @@ const config = {
   variants: {
     extend: variantsExtend,
   },
+  plugins: [
+    plugin(({ config, addBase }) => {
+      const h1 = config('theme.fontSize.h1')
+      const bold = config('theme.fontWeight.bold')
+      addBase({
+        h1: {
+          fontSize: h1[0],
+          lineHeight: h1[1].lineHeight,
+          fontWeight: bold,
+        },
+      })
+    }),
+  ],
 }
 
 module.exports = {
