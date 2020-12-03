@@ -92,57 +92,25 @@ const gray = {
   9: '#FBFCFF',
 }
 const white = '#FFF'
-const background = {
-  body: white,
-  card: '#F4F4F8',
-  disabled: '#F4F4F8',
-  popover: white,
-}
-const disabled = gray['1']
-const divider = gray['6']
-const info = primary.DEFAULT
-const mask = 'rgba(49, 60, 86, 40%)'
 const black = '#000'
-const title = gray['1']
-const subtitle = gray['2']
-const body = {
-  DEFAULT: gray['1'],
-  2: gray['3'],
-}
-const caption = gray['3']
-const link = {
-  DEFAULT: primary.DEFAULT,
-  active: primary.DEFAULT,
-  hover: primary.darker,
-}
 
 module.exports = {
   amber,
-  background,
   black,
   blue,
-  body,
-  caption,
   cyan,
-  disabled,
-  divider,
   error,
   gray,
   green,
   indigo,
-  info,
   lime,
-  link,
-  mask,
   orange,
   pink,
   primary,
   purple,
   red,
-  subtitle,
   success,
   teal,
-  title,
   warning,
   white,
   yellow,
