@@ -11,18 +11,18 @@ const corePlugins = {
 }
 
 const variantsExtend = {
-  backgroundColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus', 'disabled', 'even', 'odd', 'active'],
-  borderColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus', 'disabled', 'active'],
-  boxShadow: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus', 'disabled', 'active'],
-  cursor: ['responsive', 'disabled'],
-  divideColor: ['responsive', 'dark', 'disabled'],
-  placeholderColor: ['responsive', 'dark', 'focus', 'disabled'],
-  textColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus', 'disabled', 'active'],
-  opacity: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus', 'active', 'disabled'],
-  ringColor: ['responsive', 'dark', 'focus-within', 'focus', 'active', 'hover', 'disabled'],
-  textDecoration: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus', 'active', 'visited'],
-  transformOrigin: ['hover', 'responsive'],
-  zIndex: ['responsive', 'focus-within', 'focus', 'hover', 'active'],
+  backgroundColor: ['disabled', 'even', 'odd', 'active'],
+  borderColor: ['disabled', 'active'],
+  boxShadow: ['disabled', 'active'],
+  cursor: ['disabled'],
+  divideColor: ['disabled'],
+  placeholderColor: ['disabled'],
+  textColor: ['disabled', 'active'],
+  opacity: ['active', 'disabled'],
+  ringColor: ['active', 'hover', 'disabled'],
+  textDecoration: ['active', 'visited'],
+  transformOrigin: ['hover'],
+  zIndex: ['hover', 'active'],
 }
 
 const config = {
