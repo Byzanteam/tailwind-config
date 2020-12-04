@@ -1,98 +1,99 @@
+const gray = {
+  1: '#313c56',
+  2: '#6b7885',
+  3: '#95a4b3',
+  4: '#b7c0ca',
+  5: '#d4d7db',
+  6: '#e9eaeb',
+  7: '#f0eff4',
+  8: '#f4f4f8',
+  9: '#fbfcff',
+}
 const primary = {
-  darker: '#00734E',
-  dark: '#009963',
-  DEFAULT: '#04BF78',
-  light: 'rgba(115, 230, 174, 50%)',
-  lighter: 'rgba(160, 242, 200, 40%)',
-  lightest: 'rgba(230, 255, 241, 50%)',
+  darker: '#147a53',
+  dark: '#22a16c',
+  DEFAULT: '#34c886',
+  light: '#afedcb',
+  lighter: '#e1faeb',
+  lightest: '#f0fff6',
 }
 const success = {
-  darker: '#1E7000',
-  dark: '#2D9600',
-  DEFAULT: '#43BC08',
-  light: 'rgba(165, 227, 118, 50%)',
-  lighter: 'rgba(199, 240, 163, 40%)',
-  lightest: 'rgba(240, 252, 227, 50%)',
+  darker: '#327a15',
+  dark: '#4ba123',
+  DEFAULT: '#68c635',
+  light: '#cdedb2',
+  lighter: '#eefae3',
+  lightest: '#f8fff0',
 }
 const warning = {
-  darker: '#A67100',
-  dark: '#CC9200',
-  DEFAULT: '#F3B704',
-  light: 'rgba(255, 236, 128, 50%)',
-  lighter: 'rgba(255, 245, 168, 40%)',
-  lightest: 'rgba(255, 253, 230, 50%)',
+  darker: '#b37c15',
+  dark: '#d9a025',
+  DEFAULT: '#ffc637',
+  light: '#fff1b3',
+  lighter: '#fffadb',
+  lightest: '#fffdf0',
 }
 const error = {
-  darker: '#A30B0B',
-  dark: '#C91E18',
-  DEFAULT: '#F0382A',
-  light: 'rgba(255, 181, 166, 50%)',
-  lighter: 'rgba(255, 216, 207, 40%)',
-  lightest: 'rgba(255, 243, 240, 50%)',
+  darker: '#a61e20',
+  dark: '#cc322f',
+  DEFAULT: '#f24d43',
+  light: '#ffcbc2',
+  lighter: '#ffeeeb',
+  lightest: '#fff3f0',
 }
 const red = {
-  DEFAULT: '#F0382A',
-  light: '#FF8E7D',
+  DEFAULT: '#f24d43',
+  light: '#ffa599',
 }
 const pink = {
-  DEFAULT: '#E91E63',
-  light: '#FF7398',
+  DEFAULT: '#e91e63',
+  light: '#ff7398',
 }
 const purple = {
-  deep: '#75178A',
-  DEFAULT: '#9C27B0',
-  light: '#C26DC9',
+  deep: '#75178a',
+  DEFAULT: '#9c27b0',
+  light: '#c26dc9',
 }
 const indigo = {
-  DEFAULT: '#3F51B5',
-  light: '#8A99CF',
+  DEFAULT: '#3f51b5',
+  light: '#8a99cf',
 }
 const blue = {
-  DEFAULT: '#2196F3',
-  light: '#75CAFF',
+  DEFAULT: '#2196f3',
+  light: '#4db5ff',
 }
 const cyan = {
-  DEFAULT: '#00BCD4',
-  light: '#4CE5ED',
+  DEFAULT: '#00bcd4',
+  light: '#4ce5ed',
 }
 const teal = {
   DEFAULT: '#009688',
-  light: '#38B09C',
+  light: '#38b09c',
 }
 const green = {
-  DEFAULT: '#43BC08',
-  light: '#84D64D',
+  DEFAULT: '#68c635',
+  light: '#abe084',
 }
 const lime = {
-  DEFAULT: '#C8D832',
-  light: '#EFF285',
+  DEFAULT: '#c8d832',
+  light: '#eff285',
 }
 const yellow = {
-  DEFAULT: '#FFEB3B',
-  light: '#FFFB8C',
+  DEFAULT: '#ffeb3b',
+  light: '#fffb8c',
 }
 const amber = {
-  DEFAULT: '#F3B704',
-  light: '#FFE057',
+  DEFAULT: '#ffc637',
+  light: '#ffe68a',
 }
 const orange = {
-  deep: '#FF5722',
-  DEFAULT: '#FF9800',
-  light: '#FFC552',
+  deep: '#ff5722',
+  DEFAULT: '#ff9800',
+  light: '#ffc552',
 }
-const gray = {
-  1: '#313C56',
-  2: '#6B7885',
-  3: '#95A4B3',
-  4: '#B7C0CA',
-  5: '#D4D7DB',
-  6: '#E9EAEB',
-  7: '#F0EFF4',
-  8: '#F4F4F8',
-  9: '#FBFCFF',
-}
-const white = '#FFF'
 const black = '#000'
+const transparent = '#0000'
+const white = '#FFF'
 
 module.exports = {
   amber,
@@ -111,6 +112,7 @@ module.exports = {
   red,
   success,
   teal,
+  transparent,
   warning,
   white,
   yellow,
