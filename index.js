@@ -23,6 +23,7 @@ const variantsExtend = {
   textDecoration: ['active', 'visited'],
   transformOrigin: ['hover'],
   zIndex: ['hover', 'active'],
+  display: ['group-hover'],
 }
 
 const config = {
