@@ -7,6 +7,7 @@ module.exports = {
   8: '2rem',
   9: '2.25rem',
   10: '2.5rem',
+  none: '1', // 常用于徽标组件
   normal: '1.5',
   relaxed: '1.625',
   loose: '2',
