@@ -10,12 +10,12 @@ const gray = {
   9: '#fbfcff',
 }
 const primary = {
-  darker: '#147a53',
-  dark: '#22a16c',
-  DEFAULT: '#34c886',
-  light: '#afedcb',
-  lighter: '#e1faeb',
-  lightest: '#f0fff6',
+  darker: '#1a58a3',
+  dark: '#2a77c9',
+  DEFAULT: '#3e9aef',
+  light: '#bde6ff',
+  lighter: '#e6f6ff',
+  lightest: '#f0faff',
 }
 const success = {
   darker: '#327a15',
