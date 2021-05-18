@@ -1,3 +1,4 @@
+const { noScrollbar, ripple } = require('./plugins')
 const theme = require('./theme')
 const { getCustomProperties, transformConfig } = require('./utils')
 
@@ -36,6 +37,12 @@ const config = {
 
 module.exports = {
   config,
+
+  // plugins
+  noScrollbar,
+  ripple,
+
+  // utils
   getCustomProperties,
   transformConfig,
 }
