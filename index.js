@@ -11,28 +11,28 @@ const corePlugins = {
   textOpacity: false,
 }
 
-const variantsExtend = {
-  backgroundColor: ['disabled', 'even', 'odd', 'active'],
-  borderColor: ['disabled', 'active'],
-  boxShadow: ['disabled', 'active'],
-  cursor: ['disabled'],
-  divideColor: ['disabled'],
-  placeholderColor: ['disabled'],
-  textColor: ['disabled', 'active'],
-  opacity: ['active', 'disabled'],
-  ringColor: ['active', 'hover', 'disabled'],
-  textDecoration: ['active', 'visited'],
-  transformOrigin: ['hover'],
-  zIndex: ['hover', 'active'],
-  display: ['group-hover'],
+const variants = {
+  extend: {
+    backgroundColor: ['disabled', 'even', 'odd', 'active'],
+    borderColor: ['disabled', 'active'],
+    boxShadow: ['disabled', 'active'],
+    cursor: ['disabled'],
+    divideColor: ['disabled'],
+    placeholderColor: ['disabled'],
+    textColor: ['disabled', 'active'],
+    opacity: ['active', 'disabled'],
+    ringColor: ['active', 'hover', 'disabled'],
+    textDecoration: ['active', 'visited'],
+    transformOrigin: ['hover'],
+    zIndex: ['hover', 'active'],
+    display: ['group-hover'],
+  },
 }
 
 const config = {
   corePlugins,
   theme,
-  variants: {
-    extend: variantsExtend,
-  },
+  variants,
 }
 
 module.exports = {
