@@ -29,7 +29,7 @@ module.exports = plugin(({ addUtilities, theme }) => {
       },
     },
   }
-  const colors = theme('ripple') || {}
+  const colors = theme('ripple') || theme('colors') || {}
   const utilities = flatVariables('ripple', colors).reduce(
     (acc, cur) => ({
       ...acc,
